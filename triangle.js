@@ -34,9 +34,9 @@ function checkTriangle(a1, b1, c1) {
 
 function onSubmit3() {
     event.preventDefault();
-    let a1 = parseInt(document.getElementById('input-6').value);
-    let a2 = parseInt(document.getElementById('input-7').value);
-    let a3 = parseInt(document.getElementById('input-8').value);
+    let a1 = parseFloat(document.getElementById('input-6').value);
+    let a2 = parseFloat(document.getElementById('input-7').value);
+    let a3 = parseFloat(document.getElementById('input-8').value);
     checkTriangle(a1, a2, a3);    
 }
 
