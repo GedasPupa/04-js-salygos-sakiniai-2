@@ -23,7 +23,7 @@ _(Educational project)_
 
 ### 3. Patikrinkite, ar iš trijų įvestų trikampio kraštinių galima sudaryti trikampį.
 
-- [ ] progress
+- [x] progress
 
 ### Teacher
 
