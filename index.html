@@ -22,19 +22,32 @@
 </head>
 <body>
     <form onsubmit="onSubmit()">
-        <input type="number" id="input-1" placeholder="#1">
-        <input type="number" id="input-2" placeholder="#2">
+        <p>Įveskite 2 skaičius:</p>
+        <input type="text" id="input-1" placeholder="#1" required>
+        <input type="text" id="input-2" placeholder="#2" required>
         <input type="number" id="output" disabled placeholder="Bigger #">
         <input type="submit" value="Submit">
     </form>
     <form onsubmit="onSubmit2()">
-        <input type="number" id="input-3" placeholder="#1">
-        <input type="number" id="input-4" placeholder="#2">
-        <input type="number" id="input-5" placeholder="#3">
+        <p>Įveskite 3 skaičius:</p>
+        <input type="text" id="input-3" placeholder="#1" required>
+        <input type="text" id="input-4" placeholder="#2" required>
+        <input type="text" id="input-5" placeholder="#3" required>
         <input type="number" id="output2" disabled placeholder="Biggest #">
         <input type="submit" value="Submit">
     </form>
+    <form onsubmit="onSubmit3()">
+        <p>Įveskite trikampio kraštines:</p>
+        <input type="text" id="input-6" placeholder="#1" required>
+        <input type="text" id="input-7" placeholder="#2" required>
+        <input type="text" id="input-8" placeholder="#3" required>
+        <!-- <input type="number" id="output2" disabled placeholder="Biggest #"> -->
+        <input type="submit" value="Submit">
+        <button type="reset">Reset</button>
+        <p id="output3"></p>
+    </form>
     <script src="./two-numbers.js"></script>
-    <script src="./three.js"></script>
+    <script src="./three.js"></script>s
+    <script src="./triangle.js"></script>
 </body>
 </html>
