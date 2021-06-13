@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salyginiai sakiniai vol.2</title>
     <style>
+        body {
+            display: flex;
+        }
         form {
             width: 200px;
             padding: 30px;
@@ -24,6 +27,14 @@
         <input type="number" id="output" disabled placeholder="Bigger #">
         <input type="submit" value="Submit">
     </form>
+    <form onsubmit="onSubmit2()">
+        <input type="number" id="input-3" placeholder="#1">
+        <input type="number" id="input-4" placeholder="#2">
+        <input type="number" id="input-5" placeholder="#3">
+        <input type="number" id="output2" disabled placeholder="Biggest #">
+        <input type="submit" value="Submit">
+    </form>
     <script src="./two-numbers.js"></script>
+    <script src="./three.js"></script>
 </body>
 </html>

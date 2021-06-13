@@ -16,9 +16,9 @@ _(Educational project)_
 
 #### Papildomai:
 
-- [ ] Visi skaičiai yra paimami iš skirtingų input laukelių.
+- [x] Visi skaičiai yra paimami iš skirtingų input laukelių.
 
-- [ ] Rezultatas išvedamas neaktyviame(disabled) input laukelyje.
+- [x] Rezultatas išvedamas neaktyviame(disabled) input laukelyje.
  
 
 ### 3. Patikrinkite, ar iš trijų įvestų trikampio kraštinių galima sudaryti trikampį.

@@ -9,6 +9,6 @@ function getBigger(input1, input2) {
 
 function onSubmit() {
     event.preventDefault();
-    getBigger(document.getElementById('input-1').value, document.getElementById('input-2').value);
+    getBigger(parseInt(document.getElementById('input-1').value), parseInt(document.getElementById('input-2').value));
     output.value = biggerNumber;
 }
